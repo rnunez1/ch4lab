@@ -33,6 +33,39 @@ To apply these styles to a page, link the stylesheet in the `<head>` of an HTML 
 
     <link rel="stylesheet" href="ch4lab.css">
 
+    # Lab 4.2: Design a Web Page About You
+
+**Course:** Foundations of Web Development
+**Student:** Ramon
+**Chapter:** 4
+
+## Objective
+Design a standalone web page about myself, styled with the CSS from Lab 4.1, that includes an optimized photo with a caption and an HTML5 progress element.
+
+## Files
+- `yourlastname.html` — the "About Me" page
+- `ch4lab.css` — stylesheet from Lab 4.1, updated with a `body` rule for background and text color plus styles for the figure and progress bar
+- `images/yourlastname.jpg` — photo resized to about 400px wide and compressed for the web
+
+## Requirements Checklist
+- [x] Page linked to `ch4lab.css` using `<link rel="stylesheet">`
+- [x] Background and text color set by the stylesheet (`body` rule)
+- [x] Name inside an `<h1>` tag
+- [x] Paragraphs describing hobbies and activities
+- [x] Optimized photo in a `<figure>` with a `<figcaption>`
+- [x] Image stored in a child `images` folder
+- [x] `<progress>` element showing class standing (Senior, `value="95" max="100"`)
+- [x] `<footer>` with copyright info using the `&copy;` entity
+
+## Selectors from Lab 4.1 Used on This Page
+| Selector | Where It's Used |
+|----------|-----------------|
+| `h1` | My name at the top of the page |
+| `#notice` | Wrapper that centers the page content at 80% width |
+| `.dotted-headline` | Section headings for hobbies and class standing |
+| `#section` | Box around the class standing progress bar |
+| `footer` | Copyright footer |
+
 Then use the selectors in your markup, for example:
 
     <h2 class="dotted-headline">My Headline</h2>
