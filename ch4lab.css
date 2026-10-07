@@ -1,0 +1,41 @@
+/* Lab 4.1: Practice with CSS Selectors and Effects */
+
+/* 1. HTML element selector: footer */
+footer {
+    background-color: #ADD8E6;          /* light blue */
+    font-family: Arial, sans-serif;
+    color: #00008B;                     /* dark blue */
+    padding: 10px;
+    border: 1px dashed #00008B;         /* narrow, dashed, dark blue */
+}
+
+/* 2. id selector: notice (80% width, centered) */
+#notice {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3. class selector: headline with a dotted line underneath */
+.dotted-headline {
+    color: #2E4057;
+    border-bottom: 2px dotted #E07A5F;
+}
+
+/* 4. h1 element selector: text shadow, 50% transparent background, sans-serif 4em */
+h1 {
+    text-shadow: 3px 3px 5px #888888;
+    background-color: rgba(173, 216, 230, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+/* 5. id selector: section (small red Arial, white background, 80% width, drop shadow) */
+#section {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: red;
+    background-color: #FFFFFF;
+    width: 80%;
+    box-shadow: 5px 5px 5px #828282;
+}
